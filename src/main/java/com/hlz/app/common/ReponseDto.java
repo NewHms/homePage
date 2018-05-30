@@ -1,4 +1,4 @@
-package com.hlz.app.demo.model.base;
+package com.hlz.app.common;
 
 public class ReponseDto {
 
