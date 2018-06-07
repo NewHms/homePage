@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TestReponseDto extends ReponseDto {
 
-    private List<?> title;
+    private List<?> Data;
 
     public List<?> getTitle2() {
         return title2;
@@ -16,11 +16,12 @@ public class TestReponseDto extends ReponseDto {
     }
 
     private List<?> title2;
-    public List<?> getTitle() {
-        return title;
+
+    public List<?> getData() {
+        return Data;
     }
 
-    public void setTitle(List<?> title) {
-        this.title = title;
+    public void setData(List<?> data) {
+        Data = data;
     }
 }
